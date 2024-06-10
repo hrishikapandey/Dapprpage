@@ -1,0 +1,368 @@
+.body{
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    width: 100%;
+    height:10%;
+    background-color: #6F6AF7;
+    display: flex;
+    color: black;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    
+}
+.dappr img{ 
+   padding-top: 18px;
+   margin-left: 60px;
+   height: 5vh;
+   width: 20vh;
+}
+
+.home{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 10px;
+    flex-direction: column;
+    font-family: DM Sans;
+    font-size: 25.43px;
+    font-weight: 400;
+   line-height: 47.43px;
+   text-align: left;
+   color: white;
+   justify-content: space-between;
+   
+  
+}
+.vector img{
+    height: 5vh;
+    width: 6vh;
+    margin-right: 10px;
+    padding-top: 18px;
+    margin-left: 150px;
+      
+} 
+.search-container {
+    width: 40vh;
+    height: 6vh;
+    margin-top: 15px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #007BFF;
+}
+.search-container img{
+    position: absolute;
+    height: 4.5vh;
+    width: 4.5vh;
+    padding-top: 2px;
+    padding-left: 240px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+.image1 img{
+    height: 55.4vh;
+    width: 45vh;
+    margin-top:100px;
+    padding-left: 100px;
+    
+}
+.image2{
+    height: 55.4vh;
+    width: 130vh;
+    margin-top: 100px;
+    background-color:#E5D8FF;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 51.82px;
+    text-align: left;
+}
+.textis{
+    padding: 15px;
+}
+
+.Total{
+    display: inline-flex;
+    margin-top: 70px;
+    margin-left: 10px ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    color: white;
+    
+}
+.Question{
+width: 30vh;
+height: 10vh;
+line-height: 2;
+gap: 0px;
+border-radius: 11px;
+margin-left: 140px;
+opacity: 0px;
+background-color: #929DFF;
+box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+.Answers{
+    width: 30vh;
+    height: 10vh;
+    margin-left: 100px;
+    line-height: 2;
+    gap: 0px;
+    border-radius: 11px;
+    opacity: 0px;
+    background-color: #734CF2;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    
+    
+    }
+.Participate{
+        width: 30vh;
+        height: 10vh;
+        line-height: 2;
+        margin-left: 100px;
+        gap: 0px;
+        border-radius: 11px;
+        opacity: 0px;
+        background-color:  #D288FF;
+        box-shadow: 0px 9px 31px 0px #00000066;
+ }
+.Passed{
+     width: 30vh;
+     height: 10vh;
+     line-height: 2;
+     margin-left: 100px;
+     gap: 0px;
+     border-radius: 11px;
+     opacity: 0px;
+     background-color: black;
+     box-shadow: 0px 9px 31px 0px #00000066;
+            
+     }
+.information{
+        height: 55vh;
+        width: 165vh;
+        background-color:#483EFF;
+        margin-top: 100px;
+        margin-left: 150px;
+        line-height: 2;
+        border-radius: 20px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+.ques{
+    padding-top: 4px;
+    padding-left: 5px;
+}
+.ans{
+    padding-left:5px;
+    padding-top: 4px;
+}
+.pass{
+    padding-left: 5px;
+    padding-top: 4px;
+    
+
+}
+.parti{
+    padding-left: 5px;
+    padding-top: 4px;
+    
+}
+.logo1 img{
+    margin-left: 130px;
+    height: 100px;
+    margin-top: -50px;
+    width: 100px;
+    z-index: 1000;
+    position: fixed;
+    
+}
+.logo2{
+    
+    right: 0;
+    display: block;
+    margin-top: 150px;
+    float: right;
+    position: sticky;
+} 
+.whatsapp{
+    
+    height: 8vh;
+    width: 8vh;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 1px;
+    border-style: solid;
+    /* margin-left: 60px; */
+    
+}
+.whatsapp img{
+    height: 8vh;
+    width: 8vh;
+}
+.facebook{
+    
+    height: 8vh;
+    width: 8vh;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 1px;
+    
+    
+
+}
+.facebook img{
+    height: 8vh;
+    width: 8vh;
+}
+.twitter{
+    
+    height: 8vh;
+    width: 8vh;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.twitter img{
+    height: 8vh;
+    width: 8vh;
+}
+.divs{
+    height: 50vh;
+    width: 50vh;
+    display: flexbox;
+    margin-right: 650px;
+
+}
+.yourinfo{
+    height: 10vh;
+    width: 40vh;
+    background-color:#BCE0F6;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    gap: 0px;
+    border-radius: 21px;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+
+}
+.bookmark{
+    height: 10vh;
+    width: 40vh;
+    border-color: white;
+    border-style: solid;
+    background-color: #483EFF;
+    margin-top: 50px;
+    margin-left: 10px ;
+    border-radius: 21px;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+.setting{
+    height: 10vh;
+    width: 40vh;
+    background-color: #483EFF;
+    border-color: white;
+    margin-top: 45px;
+    margin-left: 10px ;
+    border-style: solid;
+    border-radius: 21px;
+    text-align: center;
+    font-family: DM Sans;
+   font-size: 25px;
+   font-weight: 500;
+   line-height: 62.54px;
+   letter-spacing: 0.04em;
+   color: white;
+
+}
+.info{
+    background-color: white;
+    height: 50vh;
+    width: 80vh;
+    position: absolute;
+    display: flexbox;
+    margin-left: 420px;
+    border-radius: 11px;
+    opacity: 0px;
+}
+.info button{
+    margin-top: 70px;
+    margin-left: 420px;
+    height: 5vh;
+    width: 14vh;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.details{
+    margin-left: 40px;
+}
+.home{
+    padding-left: 60px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.about{
+   margin-left: 60px; 
+   padding-top: 5px;
+   display: flex;
+   flex-direction: row;
+}
+.information1{
+    margin-left: 60px; 
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+ }
+ .More{
+    margin-left: 60px; 
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+ }
+ 
